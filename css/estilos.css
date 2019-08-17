@@ -125,76 +125,96 @@ a{
 }
 
 
-@media (min-width: 375px) {
-  .flechaderecha .right:hover{
-    padding-right: 10%;
-  }
+/* WARNING: TODOS LOS ESTILOS DEL "MENU DE PAGOS" SE ENCARGA CRISTIAN!!! */
 
-  .flechaisquierda .left:hover{
-    padding-left: 10%;
-  }
+.menudepagos{
+  width: 100%;
 }
 
-@media (min-width: 425px) {
-  .flechaderecha .right{
-    font-size: 800%;
-  }
-
-  .flechaisquierda .left{
-    font-size: 800%;
-  }
+.menudepagos ul{
+  width: 100%;
+  display: flex;
 }
 
-@media (min-width: 768px) {
-  .flechaderecha .right{
-    font-size: 1000%;
-  }
-
-  .flechaisquierda .left{
-    font-size: 1000%;
-  }
-
-  .flechaderecha .right:hover{
-    padding-right: 7%;
-  }
-
-  .flechaisquierda .left:hover{
-    padding-left: 7%;
-  }
-
-  .iconopaginacion{
-    display: block;
-  }
+.menudepagos ul li{
+  width: 33.333%;
+  border: solid 1px #000;
+  padding: 0.3%;
 }
 
-@media (min-width: 1024px) {
-  .iconopaginacion{
-    font-size: 250%;
-  }
+.menudepagos .tarjetas{
+  font-size: 210%;
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 7%;
 }
 
-@media (min-width: 1280px) {
-  .flechaderecha .right{
-    font-size: 1200%;
-  }
-
-  .flechaisquierda .left{
-    font-size: 1200%;
-  }
-
-  .flechaderecha .right:hover{
-    padding-right: 5%;
-  }
-
-  .flechaisquierda .left:hover{
-    padding-left: 5%;
-  }
-
-  .iconopaginacion:hover{
-    color: red;
-  }
-
+.menudepagos .tarjetas .fa-cc-visa{
+  color: blue;
 }
+
+.menudepagos .tarjetas .fa-cc-mastercard{
+  color: red;
+}
+
+.menudepagos .tarjetas .fa-cc-amex{
+  color: blue;
+}
+
+.menudepagos .tarjetas .fa-cc-paypal{
+  color: blue;
+}
+
+.menudepagos .sucursales{
+  font-size: 300%;
+  display: flex;
+  margin-bottom: 0.5%;
+}
+
+.menudepagos .envio{
+  font-size: 300%;
+  display: flex;
+  margin-bottom: 0.5%;
+}
+
+.menudepagos .avion{
+  font-size: 400%;
+  display: flex;
+  margin-bottom: 0.5%;
+}
+
+.menudepagos h2{
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 0.5%;
+}
+
+.menudepagos p{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.menudepagos .beneficios{
+  padding: 2% 0.3% 0 0.3%;
+}
+
+.menudepagos .oculto{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
@@ -237,3 +257,137 @@ a{
 
 
 /* WARNING: TODOS LOS ESTILOS DEL "COLOCA QUE VAS A HACER ACA JONAS" SE ENCARGA JONAS!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WARNING: MEDIA QUERIES PARA HACER RESPONSIVE LA PAGINA */
+
+@media (min-width: 375px) {
+  .flechaderecha .right:hover{
+    padding-right: 10%;
+  }
+
+  .flechaisquierda .left:hover{
+    padding-left: 10%;
+  }
+
+  .menudepagos .tarjetas{
+    font-size: 250%;
+    margin-top: 1%;
+    margin-bottom: 3.5%;
+  }
+}
+
+@media (min-width: 425px) {
+  .flechaderecha .right{
+    font-size: 800%;
+  }
+
+  .flechaisquierda .left{
+    font-size: 800%;
+  }
+
+  .menudepagos .tarjetas{
+    font-size: 280%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .flechaderecha .right{
+    font-size: 1000%;
+  }
+
+  .flechaisquierda .left{
+    font-size: 1000%;
+  }
+
+  .flechaderecha .right:hover{
+    padding-right: 7%;
+  }
+
+  .flechaisquierda .left:hover{
+    padding-left: 7%;
+  }
+
+  .iconopaginacion{
+    display: block;
+  }
+
+  .menudepagos .tarjetas{
+    font-size: 350%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .menudepagos .sucursales{
+    font-size: 350%;
+  }
+
+  .menudepagos .envio{
+    font-size: 350%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .iconopaginacion{
+    font-size: 250%;
+  }
+
+  .menudepagos .tarjetas{
+    font-size: 400%;
+  }
+
+  .menudepagos .sucursales{
+    font-size: 400%;
+  }
+
+  .menudepagos .envio{
+    font-size: 400%;
+  }
+
+  .menudepagos .oculto{
+    display: block;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .flechaderecha .right{
+    font-size: 1200%;
+  }
+
+  .flechaisquierda .left{
+    font-size: 1200%;
+  }
+
+  .flechaderecha .right:hover{
+    padding-right: 5%;
+  }
+
+  .flechaisquierda .left:hover{
+    padding-left: 5%;
+  }
+
+  .iconopaginacion:hover{
+    color: red;
+  }
+
+}

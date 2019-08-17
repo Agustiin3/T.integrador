@@ -11,6 +11,7 @@
   <body>
     <div class="contenedor">
       <?php require_once('slider.php'); ?>
+      <?php require_once('menudepagos.php'); ?>
 
 
     </div>

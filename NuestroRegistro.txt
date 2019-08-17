@@ -10,6 +10,8 @@ Cristian:
 16/08/2019 : Bueno baje un par de imágenes para hacer los logos y los edite con photoshop los guarde en formato "png" luego de que ya quede todo listo voy a pasar todas las imágenes a formato "webp" (el formato de google que comprime mucho mas) hay un formato mas nuevo pero todavía no esta bien implementado que es el formato "avif" (que también es de google y de otras empresas mas que se juntaron para desarrollar el formato de compresion "el mas eficiente hasta la fecha" 
 
 17/08/2019 : Me puse a hacer el Slider me quedo muy bueno lo hice todo desde cero para aprender bien me costo bastante el javascript ya que le encare a algo que todavía no estamos estudiando mire muchos vídeos y intente hacerlo lo mejor posible para ser el primero me quedo muy bien estoy contento jeje tarde varias hora...
+
+Termine de hacer el menu de pagos este fue mas facil y mas rapido bueno basta por hoy dia seguire mañana.
 ______________________________________________________________________________________________________________
 
 
