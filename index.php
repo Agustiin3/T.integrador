@@ -12,9 +12,10 @@
     <div class="contenedor">
       <?php require_once('slider.php'); ?>
 
-    
+
     </div>
     <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
     <script src="js/all.min.js" charset="utf-8"></script>
+    <script src="js/slider.js" charset="utf-8"></script>
   </body>
 </html>

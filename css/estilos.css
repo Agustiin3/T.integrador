@@ -29,24 +29,177 @@ a{
 }
 
 
+/* WARNING: TODOS LOS ESTILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
+.slider{
+  width: 100%;
+  position: relative;
+  border: solid 1px blue;
+  border-radius: 5px;
+}
+
+.slider ul li{
+  width: 100%;
+}
+
+.slider ul li img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.slider ol{
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider ol li{
+  margin: 0;
+  padding: 0 0.3%;
+  color: blue;
+}
+
+.iconopaginacion{
+  font-size: 200%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.iconopaginacion:hover{
+  padding-left: 5%;
+  transition: all 0.5s;
+}
+
+.flechaisquierda{
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: solid 1px #fff126;
+  height: 100%;
+  width: 10%;
+  background: #00000057;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flechaisquierda .left{
+  display: block;
+  font-size: 600%;
+  color: blue;
+  cursor: pointer;
+}
+
+.flechaisquierda .left:hover{
+  padding-left: 20%;
+  color: red;
+  transition: all 0.5s;
+}
+
+.flechaderecha{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: solid 1px #fff126;
+  height: 100%;
+  width: 10%;
+  background: #00000057;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flechaderecha .right{
+  display: block;
+  font-size: 600%;
+  color: blue;
+  cursor: pointer;
+}
+
+.flechaderecha .right:hover{
+  padding-right: 20%;
+  color: red;
+  transition: all 0.5s;
+}
+
+
+@media (min-width: 375px) {
+  .flechaderecha .right:hover{
+    padding-right: 10%;
+  }
+
+  .flechaisquierda .left:hover{
+    padding-left: 10%;
+  }
+}
+
+@media (min-width: 425px) {
+  .flechaderecha .right{
+    font-size: 800%;
+  }
+
+  .flechaisquierda .left{
+    font-size: 800%;
+  }
+}
+
+@media (min-width: 768px) {
+  .flechaderecha .right{
+    font-size: 1000%;
+  }
+
+  .flechaisquierda .left{
+    font-size: 1000%;
+  }
+
+  .flechaderecha .right:hover{
+    padding-right: 7%;
+  }
+
+  .flechaisquierda .left:hover{
+    padding-left: 7%;
+  }
+
+  .iconopaginacion{
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .iconopaginacion{
+    font-size: 250%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .flechaderecha .right{
+    font-size: 1200%;
+  }
+
+  .flechaisquierda .left{
+    font-size: 1200%;
+  }
+
+  .flechaderecha .right:hover{
+    padding-right: 5%;
+  }
+
+  .flechaisquierda .left:hover{
+    padding-left: 5%;
+  }
+
+  .iconopaginacion:hover{
+    color: red;
+  }
+
+}
+
+
 /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* WARNING: TODOS LOS ESTILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
 
 
 
