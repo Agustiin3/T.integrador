@@ -7,12 +7,14 @@
     <meta name="author" content="GrupoHouse">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="contenedor">
       <?php require_once('slider.php'); ?>
-    </div>
 
+    
+    </div>
+    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="js/all.min.js" charset="utf-8"></script>
   </body>
 </html>
