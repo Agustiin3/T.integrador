@@ -239,4 +239,8 @@ if (mediaquery1280.matches) {
     $('.slider2 ul li:nth-child('+carril12803+')').show();
     $('.slider2 ul li:nth-child('+carril12804+')').show();
   }
+
+  setInterval(function(){
+    flechaisquierda12802();
+  },10000);
 }
