@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <div class="contenedor">
       <?php require_once('slider.php'); ?>
+    <div class="contenedor">
       <?php require_once('menudepagos.php'); ?>
       <?php require_once('slider2.php'); ?>
+      <?php require_once('slider3.php'); ?>
 
 
     </div>

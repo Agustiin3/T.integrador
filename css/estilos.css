@@ -16,7 +16,7 @@ body{
 }
 
 .contenedor{
-  width: 100%;
+  width: 98%;
 }
 
 li{
@@ -218,7 +218,7 @@ a{
   background-size: cover;
   width: 20%;
   border: solid 1px blue;
-  padding: 6% 5%;
+  padding: 7% 5%;
 }
 
 .ofertas h1{
@@ -304,7 +304,8 @@ a{
 }
 
 .slider2 ul li img{
-  width: 100%;
+  width: 80%;
+  display: block;
   margin-top: 3%;
   margin-bottom: 3%;
   border-radius: 5px;
@@ -353,6 +354,110 @@ a{
 }
 
 .flechaderecha2 .right2:hover{
+  padding-right: 20%;
+  color: red;
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+/* WARNING: TODOS LOS ESTILOS DEL "SLIDER 3" SE ENCARGA CRISTIAN!!! */
+
+
+.slider3{
+  width: 100%;
+  position: relative;
+}
+
+.slider3 ul{
+  display: flex;
+}
+
+.slider3 ul li{
+  width: 100%;
+}
+
+.slider3 ul li:hover{
+  padding: 0 1%;
+  transition: all 0.5s;
+}
+
+.slider3 ul li h1{
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #000;
+}
+
+.slider3 ul li h2{
+  text-align: center;
+  font-size: 1.3em;
+  color: #0F7300;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.slider3 ul li img{
+  width: 80%;
+  display: block;
+  margin-top: 3%;
+  border-radius: 50%;
+}
+
+.flechaisquierda3{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fondoflecha3{
+  background: #7b7b7ade;
+  width: 85%;
+  padding: 50% 0;
+  border-radius: 3px;
+}
+
+.flechaisquierda3 .left3{
+  display: block;
+  font-size: 500%;
+  color: blue;
+  cursor: pointer;
+}
+
+.flechaisquierda3 .left3:hover{
+  padding-left: 20%;
+  color: red;
+  transition: all 0.5s;
+}
+
+.flechaderecha3{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flechaderecha3 .right3{
+  display: block;
+  font-size: 500%;
+  color: blue;
+  cursor: pointer;
+}
+
+.flechaderecha3 .right3:hover{
   padding-right: 20%;
   color: red;
   transition: all 0.5s;
@@ -452,6 +557,16 @@ a{
   .flechaisquierda2 .left2:hover{
     padding-left: 10%;
   }
+
+  /* WARNING: STILOS DEL "SLIDER 3" SE ENCARGA CRISTIAN!!! */
+
+  .flechaderecha3 .right3:hover{
+    padding-right: 10%;
+  }
+
+  .flechaisquierda3 .left3:hover{
+    padding-left: 10%;
+  }
 }
 
 @media (min-width: 425px) {
@@ -481,6 +596,16 @@ a{
   }
 
   .flechaisquierda2 .left2{
+    font-size: 600%;
+  }
+
+  /* WARNING: STILOS DEL "SLIDER 3" SE ENCARGA CRISTIAN!!! */
+
+  .flechaderecha3 .right3{
+    font-size: 600%;
+  }
+
+  .flechaisquierda3 .left3{
     font-size: 600%;
   }
 }
@@ -547,6 +672,40 @@ a{
     width: 50%;
   }
 
+  .slider3 ul li img{
+    width: 95%;
+  }
+
+  /* WARNING: STILOS DEL "SLIDER 3" SE ENCARGA CRISTIAN!!! */
+
+  .flechaderecha3 .right3{
+    font-size: 700%;
+  }
+
+  .flechaisquierda3 .left3{
+    font-size: 700%;
+  }
+
+  .flechaderecha3 .right3:hover{
+    padding-right: 7%;
+  }
+
+  .flechaisquierda3 .left3:hover{
+    padding-left: 7%;
+  }
+
+  .slider3 ul li{
+    width: 32%;
+  }
+
+  .flechaisquierda3{
+    width: 10%;
+  }
+
+  .flechaderecha3{
+    width: 10%;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -579,9 +738,10 @@ a{
 
   .ofertas{
     display: block;
+
   }
 
-  .slider2 ul li{
+  .slider2{
     width: 80%;
   }
 
@@ -597,6 +757,28 @@ a{
   .flechaderecha2{
     border-right: solid 1px #fff126;
     background: #00000057;
+  }
+
+  /* WARNING: STILOS DEL "SLIDER 3" SE ENCARGA CRISTIAN!!! */
+
+  .flechaisquierda3{
+    width: 7%;
+  }
+
+  .flechaderecha3{
+    width: 7%;
+  }
+
+  .flechaderecha3 .right3:hover{
+    padding-right: 10%;
+  }
+
+  .flechaisquierda3 .left3:hover{
+    padding-left: 10%;
+  }
+
+  .slider3 ul li{
+    width: 24%;
   }
 
 }
@@ -647,6 +829,10 @@ a{
     width: 25%;
   }
 
+  .ofertas{
+    padding: 4.5% 5%;
+  }
+
   .ofertas h1{
     font-size: 2.5em;
   }
@@ -661,6 +847,41 @@ a{
 
   .ofertas .botonvermas a{
     font-weight: bold;
+  }
+
+  .slider3 ul li img{
+    width: 100%;
+  }
+
+  /* WARNING: STILOS DEL "SLIDER 3" SE ENCARGA CRISTIAN!!! */
+
+  .slider3 ul li{
+    width: 16%;
+  }
+
+  .flechaisquierda3{
+    width: 5%;
+  }
+
+  .flechaderecha3{
+    width: 5%;
+  }
+
+  .fondoflecha3{
+    opacity: 0;
+  }
+
+  .fondoflecha3:hover{
+    opacity: 1;
+    transition: all 0.5s;
+  }
+
+  .flechaderecha3 .right3{
+    font-size: 600%;
+  }
+
+  .flechaisquierda3 .left3{
+    font-size: 600%;
   }
 
 }

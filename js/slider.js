@@ -244,3 +244,215 @@ if (mediaquery1280.matches) {
     flechaisquierda12802();
   },10000);
 }
+
+// WARNING: Slider 3
+
+var contadorimagenes3 = $('.slider3 ul li').length;
+
+$('.slider3 ul li').hide();
+$('.slider3 ul li:nth-child(-n+1)').show();
+var carril1slider3 = 1;
+
+
+$('.flechaderecha3').click(flechaderecha3);
+$('.flechaisquierda3').click(flechaisquierda3);
+
+function flechaderecha3(){
+  if (carril1slider3 >= contadorimagenes3) {
+    carril1slider3 = 1;
+  }else {
+    carril1slider3++;
+  }
+
+  $('.slider3 ul li').hide();
+  $('.slider3 ul li:nth-child('+carril1slider3+')').show();
+}
+
+function flechaisquierda3(){
+  if (carril1slider3 <= 1) {
+    carril1slider3 = contadorimagenes3;
+  }else {
+    carril1slider3--;
+  }
+
+  $('.slider3 ul li').hide();
+  $('.slider3 ul li:nth-child('+carril1slider3+')').show();
+}
+
+
+var mediaquery768 = window.matchMedia("(min-width: 768px)");
+if (mediaquery768.matches) {
+
+  var contador768imagenes3 = $('.slider3 ul li').length;
+
+  $('.slider3 ul li').hide();
+  $('.slider3 ul li:nth-child(-n+3)').show();
+  var carril7681slider3 = 1;
+  var carril7682slider3 = 2;
+  var carril7683slider3 = 3;
+
+  $('.flechaderecha3').click(flechaderecha7683);
+  $('.flechaisquierda3').click(flechaisquierda7683);
+
+  function flechaderecha7683(){
+    if (carril7683slider3 >= contador768imagenes3) {
+      carril7681slider3 = 1;
+      carril7682slider3 = 2;
+      carril7683slider3 = 3;
+    }else {
+      carril7681slider3++;
+      carril7682slider3++;
+      carril7683slider3++;
+    }
+
+    $('.slider3 ul li').hide();
+    $('.slider3 ul li:nth-child('+carril7681slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril7682slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril7683slider3+')').toggle();
+  }
+
+  function flechaisquierda7683(){
+    if (carril7681slider3 <= 1) {
+      carril7681slider3 = contador768imagenes3 - 2;
+      carril7682slider3 = contador768imagenes3 - 1;
+      carril7683slider3 = contador768imagenes3;
+    }else {
+      carril7681slider3--;
+      carril7682slider3--;
+      carril7683slider3--;
+    }
+
+    $('.slider3 ul li').hide();
+    $('.slider3 ul li:nth-child('+carril7681slider3+')').toggle();
+    $('.slider3 ul li:nth-child('+carril7682slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril7683slider3+')').show();
+  }
+}
+
+var mediaquery1024 = window.matchMedia("(min-width: 1024px)");
+if (mediaquery1024.matches) {
+
+  var contador1024imagenes3 = $('.slider3 ul li').length;
+
+  $('.slider3 ul li:nth-child(-n+4)').show();
+  var carril10241slider3 = 1;
+  var carril10242slider3 = 2;
+  var carril10243slider3 = 3;
+  var carril10244slider3 = 4;
+
+  $('.flechaderecha3').click(flechaderecha10243);
+  $('.flechaisquierda3').click(flechaisquierda10243);
+
+  function flechaderecha10243(){
+    if (carril10244slider3 >= contador1024imagenes3) {
+      carril10241slider3 = 1;
+      carril10242slider3 = 2;
+      carril10243slider3 = 3;
+      carril10244slider3 = 4;
+    }else {
+      carril10241slider3++;
+      carril10242slider3++;
+      carril10243slider3++;
+      carril10244slider3++;
+    }
+
+    $('.slider3 ul li').hide();
+    $('.slider3 ul li:nth-child('+carril10241slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril10242slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril10243slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril10244slider3+')').toggle();
+  }
+
+  function flechaisquierda10243(){
+    if (carril10241slider3 <= 1) {
+      carril10241slider3 = contador1024imagenes3 - 3;
+      carril10242slider3 = contador1024imagenes3 - 2;
+      carril10243slider3 = contador1024imagenes3 - 1;
+      carril10244slider3 = contador1024imagenes3;
+    }else {
+      carril10241slider3--;
+      carril10242slider3--;
+      carril10243slider3--;
+      carril10244slider3--;
+    }
+
+    $('.slider3 ul li').hide();
+    $('.slider3 ul li:nth-child('+carril10241slider3+')').toggle();
+    $('.slider3 ul li:nth-child('+carril10242slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril10243slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril10244slider3+')').show();
+  }
+}
+
+var mediaquery1280 = window.matchMedia("(min-width: 1280px)");
+if (mediaquery1280.matches) {
+
+  var contador1280imagenes3 = $('.slider3 ul li').length;
+
+  $('.slider3 ul li:nth-child(-n+6)').show();
+  var carril12801slider3 = 1;
+  var carril12802slider3 = 2;
+  var carril12803slider3 = 3;
+  var carril12804slider3 = 4;
+  var carril12805slider3 = 5;
+  var carril12806slider3 = 6;
+
+  $('.flechaderecha3').click(flechaderecha12803);
+  $('.flechaisquierda3').click(flechaisquierda12803);
+
+  function flechaderecha12803(){
+    if (carril12806slider3 >= contador1280imagenes3) {
+      carril12801slider3 = 1;
+      carril12802slider3 = 2;
+      carril12803slider3 = 3;
+      carril12804slider3 = 4;
+      carril12805slider3 = 5;
+      carril12806slider3 = 6;
+    }else {
+      carril12801slider3++;
+      carril12802slider3++;
+      carril12803slider3++;
+      carril12804slider3++;
+      carril12805slider3++;
+      carril12806slider3++;
+    }
+
+    $('.slider3 ul li').hide();
+    $('.slider3 ul li:nth-child('+carril12801slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12802slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12803slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12804slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12805slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12806slider3+')').toggle(1200);
+  }
+
+  function flechaisquierda12803(){
+    if (carril12801slider3 <= 1) {
+      carril12801slider3 = contador1280imagenes3 - 5;
+      carril12802slider3 = contador1280imagenes3 - 4;
+      carril12803slider3 = contador1280imagenes3 - 3;
+      carril12804slider3 = contador1280imagenes3 - 2;
+      carril12805slider3 = contador1280imagenes3 - 1;
+      carril12806slider3 = contador1280imagenes3;
+    }else {
+      carril12801slider3--;
+      carril12802slider3--;
+      carril12803slider3--;
+      carril12804slider3--;
+      carril12805slider3--;
+      carril12806slider3--;
+    }
+
+    $('.slider3 ul li').hide();
+    $('.slider3 ul li:nth-child('+carril12801slider3+')').slideToggle(1200);
+    $('.slider3 ul li:nth-child('+carril12802slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12803slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12804slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12805slider3+')').show();
+    $('.slider3 ul li:nth-child('+carril12806slider3+')').show();
+  }
+
+  setInterval(function(){
+    flechaderecha12803();
+  },15000);
+}
