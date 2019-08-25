@@ -12,13 +12,25 @@
       <?php require_once('slider.php'); ?>
     <div class="contenedor">
       <?php require_once('menudepagos.php'); ?>
+      <div class="banner">
+        <img src="upload/banner.webp" alt="">
+      </div>
+      <?php require_once('slider7.php'); ?>
       <?php require_once('slider2.php'); ?>
       <?php require_once('slider3.php'); ?>
+      <?php require_once('slider4.php'); ?>
+      <?php require_once('seccion.php'); ?>
+      <?php require_once('slider5.php'); ?>
+      <?php require_once('slider6.php'); ?>
+      <div class="banner2">
+        <img src="upload/banner2.webp" alt="">
+      </div>
+      <?php require_once('slider8.php'); ?>
 
 
     </div>
     <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-    <script src="js/all.min.js" charset="utf-8"></script>
     <script src="js/slider.js" charset="utf-8"></script>
+    <script src="js/all.min.js" charset="utf-8"></script>
   </body>
 </html>
