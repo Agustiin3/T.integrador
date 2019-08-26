@@ -18,14 +18,18 @@
       <?php require_once('slider7.php'); ?>
       <?php require_once('slider2.php'); ?>
       <?php require_once('slider3.php'); ?>
+      <?php require_once('seccion3.php'); ?>
       <?php require_once('slider4.php'); ?>
       <?php require_once('seccion.php'); ?>
       <?php require_once('slider5.php'); ?>
+      <?php require_once('seccion2.php'); ?>
       <?php require_once('slider6.php'); ?>
+      <?php require_once('seccion4.php'); ?>
       <div class="banner2">
         <img src="upload/banner2.webp" alt="">
       </div>
       <?php require_once('slider8.php'); ?>
+      <?php require_once('footer.php'); ?>
 
 
     </div>
