@@ -3,7 +3,7 @@
   <h1>OFERTAS</h1>
   <h3>Destacadas</h3>
   <p>22:13:17</p>
-  <p class="botonvermas"><a href="#">VER TODAS</a></p>
+  <p class="botonvermas"><a href="ofertas.php">VER TODAS</a></p>
 </div>
 <div class="slider2">
   <ul>

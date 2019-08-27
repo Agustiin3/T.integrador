@@ -1707,6 +1707,318 @@ a{
 }
 
 
+/* WARNING: TODOS LOS ESTILOS DEL "MENU DERECHO (ASIDE)" SE ENCARGA CRISTIAN!!! */
+
+.menuizquierdo{
+  width: 22%;
+  border: solid 1px #ffffff96;
+  border-radius: 4px;
+  padding: 1%;
+  background: #401a0eb3;
+  display: none;
+  margin: 2% 1% 3.5% 1%;
+}
+
+.menuizquierdo h3{
+  font-size: 2.1em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  margin-bottom: 5%;
+}
+
+.menuizquierdo .categorias{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .categorias ul{
+  width: 100%;
+}
+
+.menuizquierdo .categorias ul li{
+  margin-bottom: 5%;
+}
+
+.menuizquierdo .categorias ul li a{
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdo .categorias ul li a:hover{
+  font-size: 1.55em;
+  color: #00BCD4;
+  text-shadow: 9px 0px 5px #000;
+  transition: all 0.5s;
+}
+
+.menuizquierdo .filtrarcategorias h4{
+  font-size: 1.8em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  margin-bottom: 5%;
+}
+
+.menuizquierdo .filtrarcategorias ul{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .filtrarcategorias ul li{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.menuizquierdo .filtrarcategorias ul li input{
+  margin-left: 0;
+  width: 5%;
+  margin-top: 1.2%;
+}
+
+.menuizquierdo .filtrarcategorias ul li a{
+  text-align: left;
+  width: 92%;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdo .filtrarcategorias ul li a:hover{
+  font-size: 1.55em;
+  color: #00BCD4;
+  text-shadow: 9px 0px 5px #000;
+  transition: all 0.5s;
+}
+
+.menuizquierdo .filtrarportarjetas ul{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .filtrarportarjetas ul li{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.menuizquierdo .filtrarportarjetas ul li input{
+  margin-left: 0;
+  width: 5%;
+  margin-top: 1.2%;
+}
+
+.menuizquierdo .filtrarportarjetas ul li a{
+  text-align: left;
+  width: 92%;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdo .filtrarportarjetas ul li a:hover{
+  font-size: 1.55em;
+  color: #00BCD4;
+  text-shadow: 9px 0px 5px #000;
+  transition: all 0.5s;
+}
+
+.menuizquierdo .filtrarporpromociones ul{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .filtrarporpromociones ul li{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.menuizquierdo .filtrarporpromociones ul li input{
+  margin-left: 0;
+  width: 5%;
+  margin-top: 1.2%;
+}
+
+.menuizquierdo .filtrarporpromociones ul li a{
+  text-align: left;
+  width: 92%;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdo .filtrarporpromociones ul li a:hover{
+  font-size: 1.55em;
+  color: #00BCD4;
+  text-shadow: 9px 0px 5px #000;
+  transition: all 0.5s;
+}
+
+.menuizquierdo .filtrarpordescuentos ul{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .filtrarpordescuentos ul li{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.menuizquierdo .filtrarpordescuentos ul li input{
+  margin-left: 0;
+  width: 5%;
+  margin-top: 1.2%;
+}
+
+.menuizquierdo .filtrarpordescuentos ul li a{
+  text-align: left;
+  width: 92%;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdo .filtrarpordescuentos ul li a:hover{
+  font-size: 1.55em;
+  color: #00BCD4;
+  text-shadow: 9px 0px 5px #000;
+  transition: all 0.5s;
+}
+
+.menuizquierdo .precio ul{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .precio ul li{
+  width: 100%;
+}
+
+.menuizquierdo .precio ul li input{
+  width: 100%;
+}
+
+.menuizquierdo .precio ul li ul{
+  display: flex;
+  margin-top: 5%;
+}
+
+.menuizquierdo .precio ul li ul li{
+  width: 25%;
+}
+
+.menuizquierdo .precio ul li ul li p{
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  margin-bottom: 3%;
+}
+
+.menuizquierdo .precio ul li ul li input{
+  padding: 15% 5%;
+  border-radius: 4px;
+}
+
+.menuizquierdo .precio ul li ul li button{
+  width: 100%;
+  height: 67%;
+  margin-top: 33%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+  border-radius: 4px;
+}
+
+
+.menuizquierdo .calificaciones ul{
+  margin-bottom: 20%;
+}
+
+.menuizquierdo .calificaciones ul li{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.menuizquierdo .calificaciones ul li input{
+  margin-left: 0;
+  width: 5%;
+  margin-top: 2.5%;
+}
+
+.menuizquierdo .calificaciones ul li a{
+  text-align: left;
+  width: 92%;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdo .calificaciones ul li a:hover{
+  font-size: 1.55em;
+  color: #00BCD4;
+  text-shadow: 9px 0px 5px #000;
+  transition: all 0.5s;
+}
+
+
+/* WARNING: TODOS LOS ESTILOS DEL "ARTICULOS" SE ENCARGA CRISTIAN!!! */
+
+.articulos{
+  width: 100%;
+  margin: 2% 0;
+}
+
+.articulos .articulo{
+  width: 100%;
+  border: solid 1px #00ff0970;
+  background: #0000007a;
+  border-radius: 4px;
+  margin-bottom: 2%;
+}
+
+.articulos .articulo:hover{
+  padding: 0 2.2%;
+  border: solid 1px #ffffff96;
+  border-radius: 3px;
+  background: #00000080;
+  transition: all 0.5s;
+}
+
+.articulos .articulo a{
+  display: flex;
+}
+
+.articulos .articulo a .cuotayimagen{
+  width: 60%;
+}
+
+.articulos .articulo a .cuotayimagen h2{
+  text-align: center;
+  font-size: 1.3em;
+  background: #0F7300;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  border-radius: 3px;
+  padding: 3%;
+}
+
+.articulos .articulo a .cuotayimagen img{
+  width: 100%;
+}
+
+.articulos .articulo a .tituloyprecio{
+  width: 40%;
+  padding: 25% 0;
+}
+
+.articulos .articulo a .tituloyprecio h1{
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  margin-bottom: 10%;
+}
+
+.articulos .articulo a .tituloyprecio p{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #1ec105;
+  text-shadow: 1px 1px 1px #000;
+}
+
 
 /* WARNING: TODOS LOS ESTILOS DEL "FOOTER" SE ENCARGA CRISTIAN!!! */
 
@@ -2617,6 +2929,27 @@ a{
     width: 95%;
   }
 
+
+  /* WARNING: TODOS LOS ESTILOS DEL "ARTICULOS" SE ENCARGA CRISTIAN!!! */
+
+  .articulos section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .articulos .articulo{
+    width: 48%;
+  }
+
+  .articulos .articulo a .tituloyprecio{
+    padding: 30% 0;
+  }
+
+  .articulos .articulo a .tituloyprecio h1{
+    font-size: 1.3em;
+    margin-bottom: 5%;
+  }
+
   /* WARNING: TODOS LOS ESTILOS DEL "FOOTER" SE ENCARGA CRISTIAN!!! */
 
 
@@ -2921,6 +3254,13 @@ a{
 
   .slider8 ul li{
     width: 24%;
+  }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "ARTICULOS" SE ENCARGA CRISTIAN!!! */
+
+
+  .articulos .articulo{
+    width: 32%;
   }
 
   /* WARNING: TODOS LOS ESTILOS DEL "FOOTER" SE ENCARGA CRISTIAN!!! */
@@ -3349,6 +3689,42 @@ a{
   .slider8 ul li img{
     width: 100%;
   }
+
+
+  /* WARNING: TODOS LOS ESTILOS DEL "ARTICULOS" SE ENCARGA CRISTIAN!!! */
+
+
+  .articulosymenuizquierdo{
+    display: flex;
+  }
+
+  .menuizquierdo{
+    display: block;
+  }
+
+
+  .articulos{
+    width: 76%;
+  }
+
+  .articulos .articulo{
+    width: 24%;
+  }
+
+  .articulos .articulo a{
+    display: block;
+  }
+
+  .articulos .articulo a .cuotayimagen{
+    width: 100%;
+  }
+
+  .articulos .articulo a .tituloyprecio{
+    width: 100%;
+    padding: 2% 0;
+  }
+
+
 
   /* WARNING: TODOS LOS ESTILOS DEL "FOOTER" SE ENCARGA CRISTIAN!!! */
 
