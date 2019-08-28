@@ -29,18 +29,18 @@
 
       <ul>
         <li>
-        <div class="icono-bolsa">
+        <div class="compras">
         <i class="fas fa-shopping-bag"></i>
         </div>
           <h1>Compras</h1>
-        <a href="cupon-descuento">Tengo-un-cupón-descuento</a>
-          <a href="costo-de-envio">Conocé-los-costos-de-envío</a>
-            <a href="compra-registrada">¿Mi-compra-está-registrada?</a>
-              <a href="como-comprar-online">¿Cómo-comprar-en-garbarino.com?</a>
-                <a href="promociones-medios-de-pago">Promociones-y-medios-de-pago</a>
-                  <a href="Retiro-sucursal">Retiro-en-sucursal</a>
-                    <a href="compre-licensia-digital">Compré-una-licensia-digital</a>
-                      <a class="masinfo" href="masinfo">Más-información</a>
+        <a href="cupon-descuento">Tengo un cupón descuento</a>
+          <a href="costo-de-envio">Conocé los costos de envío</a>
+            <a href="compra-registrada">¿Mi compra está registrada?</a>
+              <a href="como-comprar-online">¿Cómo comprar en garbarino.com?</a>
+                <a href="promociones-medios-de-pago">Promociones y medios de pago</a>
+                  <a href="Retiro-sucursal">Retiro en sucursal</a>
+                    <a href="compre-licensia-digital">Compré una licensia digital</a>
+                      <a class="masinfo" href="masinfo">Más información</a>
 
       </li>
 
@@ -48,16 +48,15 @@
       <div class="pago">
         <i class="fas fa-file-invoice-dollar"></i>
       </div>
-        <h1>Compras</h1>
-      <a href="cupon-descuento">Tengo-un-cupón-descuento</a>
-        <a href="costo-de-envio">Conocé-los-costos-de-envío</a>
-          <a href="compra-registrada">¿Mi-compra-está-registrada?</a>
-            <a href="como-comprar-online">¿Cómo-comprar-en-garbarino.com?</a>
-              <a href="promociones-medios-de-pago">Promociones-y-medios-de-pago</a>
-                <a href="Retiro-sucursal">Retiro-en-sucursal</a>
-                  <a href="compre-licensia-digital">Compré-una-licensia-digital</a>
-                    <a class="masinfo" href="masinfo">Más-información</a>
-
+        <h1>Pagos y facturación</h1>
+        <a href="cupon-descuento">Tengo un cupón descuento</a>
+          <a href="costo-de-envio">Conocé los costos de envío</a>
+            <a href="compra-registrada">¿Mi compra está registrada?</a>
+              <a href="como-comprar-online">¿Cómo comprar en garbarino.com?</a>
+                <a href="promociones-medios-de-pago">Promociones y medios de pago</a>
+                  <a href="Retiro-sucursal">Retiro en sucursal</a>
+                    <a href="compre-licensia-digital">Compré una licensia digital</a>
+                      <a class="masinfo" href="masinfo">Más información</a>
     </li>
 
 
@@ -65,55 +64,56 @@
     <div class="entrega">
     <i class="fas fa-truck"></i>
     </div>
-      <h1>Compras</h1>
-    <a href="cupon-descuento">Tengo-un-cupón-descuento</a>
-      <a href="costo-de-envio">Conocé-los-costos-de-envío</a>
-        <a href="compra-registrada">¿Mi-compra-está-registrada?</a>
-          <a href="como-comprar-online">¿Cómo-comprar-en-garbarino.com?</a>
-            <a href="promociones-medios-de-pago">Promociones-y-medios-de-pago</a>
-              <a href="Retiro-sucursal">Retiro-en-sucursal</a>
-                <a href="compre-licensia-digital">Compré-una-licensia-digital</a>
-                  <a class="masinfo" href="masinfo">Más-información</a>
-
-    </li>
-    <li>
-    <div class="entrega">
-    <i class="fas fa-truck"></i>
-    </div>
-      <h1>Compras</h1>
-    <a href="cupon-descuento">Tengo-un-cupón-descuento</a>
-      <a href="costo-de-envio">Conocé-los-costos-de-envío</a>
-        <a href="compra-registrada">¿Mi-compra-está-registrada?</a>
-          <a href="como-comprar-online">¿Cómo-comprar-en-garbarino.com?</a>
-            <a href="promociones-medios-de-pago">Promociones-y-medios-de-pago</a>
-              <a href="Retiro-sucursal">Retiro-en-sucursal</a>
-                <a href="compre-licensia-digital">Compré-una-licensia-digital</a>
-                  <a class="masinfo" href="masinfo">Más-información</a>
+      <h1>Entregas</h1>
+    <a href="cupon-descuento">Tengo un cupón descuento</a>
+      <a href="costo-de-envio">Conocé los costos de envío</a>
+        <a href="compra-registrada">¿Mi compra está registrada?</a>
+          <a href="como-comprar-online">¿Cómo comprar en garbarino.com?</a>
+            <a href="promociones-medios-de-pago">Promociones y medios de pago</a>
+              <a href="Retiro-sucursal">Retiro en sucursal</a>
+                <a href="compre-licensia-digital">Compré una licensia digital</a>
+                  <a class="masinfo" href="masinfo">Más información</a>
 
     </li>
 
     <li>
-    <div class="entrega">
-    <i class="fas fa-truck"></i>
+    <div class="sucursales">
+    <i class="fas fa-store"></i>  
     </div>
-      <h1>Compras</h1>
-    <a href="lista-sucursal"></a>
+      <h1>Sucursales</h1>
+    <a href="lista-sucursal">Listados de Sucursales:Días y horarios </a>
 
     </li>
 
     <li>
-    <div class="entrega">
-    <i class="fas fa-truck"></i>
+    <div class="garantias-servicios">
+    <i class="fas fa-tools"></i>
     </div>
-      <h1>Compras</h1>
-    <a href="cupon-descuento">Tengo-un-cupón-descuento</a>
-      <a href="costo-de-envio">Conocé-los-costos-de-envío</a>
-        <a href="compra-registrada">¿Mi-compra-está-registrada?</a>
-          <a href="como-comprar-online">¿Cómo-comprar-en-garbarino.com?</a>
-            <a href="promociones-medios-de-pago">Promociones-y-medios-de-pago</a>
-              <a href="Retiro-sucursal">Retiro-en-sucursal</a>
-                <a href="compre-licensia-digital">Compré-una-licensia-digital</a>
-                  <a class="masinfo" href="masinfo">Más-información</a>
+      <h1>Garantias servicios técnicos e Instalaciones</h1>
+    <a href="cupon-descuento">Tengo un cupón descuento</a>
+      <a href="costo-de-envio">Conocé los costos de envío</a>
+        <a href="compra-registrada">¿Mi compra está registrada?</a>
+          <a href="como-comprar-online">¿Cómo comprar en garbarino.com?</a>
+            <a href="promociones-medios-de-pago">Promociones y medios de pago</a>
+              <a href="Retiro-sucursal">Retiro en sucursal</a>
+                <a href="compre-licensia-digital">Compré una licensia digital</a>
+                  <a class="masinfo" href="masinfo">Más información</a>
+
+    </li>
+
+    <li>
+    <div class="cambios y dev">
+    <i class="fas fa-retweet"></i>
+    </div>
+      <h1>Cambios y devoluciones</h1>
+    <a href="cupon-descuento">Tengo un cupón descuento</a>
+      <a href="costo-de-envio">Conocé los costos de envío</a>
+        <a href="compra-registrada">¿Mi compra está registrada?</a>
+          <a href="como-comprar-online">¿Cómo comprar en garbarino.com?</a>
+            <a href="promociones-medios-de-pago">Promociones y medios de pago</a>
+              <a href="Retiro-sucursal">Retiro en sucursal</a>
+                <a href="compre-licensia-digital">Compré una licensia digital</a>
+                  <a class="masinfo" href="masinfo">Más información</a>
 
     </li>
 
@@ -135,10 +135,17 @@
     </div>
 
   <div class="preguntas-compras">
+     <ul>
+     <li> Consulta stock </li>
+     <li> ¿Puedo pagar con 2 medios de pago? </li>
+     <li> Solicitud Presupuesto </li>
+     <li> Fechas de entrega disponibles para envios a domicilio </li>
+     <li> Tengo un cupón de descuento </li>
+     <li> Conocé los costos de envio </li>
+     <li>¿Cómo comprar en garbarino.com?</li>
 
-    
-
-  </div>
+     </ul>
+     </div>
  </div>
 
 
