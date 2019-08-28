@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
+      <?php require_once('registro.php'); ?>
       <?php require_once('slider.php'); ?>
     <div class="contenedor">
       <?php require_once('menudepagos.php'); ?>
