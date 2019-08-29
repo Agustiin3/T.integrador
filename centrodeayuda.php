@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
+    <?php require_once('header.php'); ?>
+    <?php require_once('registro.php'); ?>
     <div class="contenedor">
     <hgroup>
       <h1>Bienvenido al Centro de Atención al cliente</h1>

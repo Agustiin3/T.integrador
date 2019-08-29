@@ -63,7 +63,7 @@ a{
   border: solid 1px #0000008f;
   box-shadow: 0px 0px 5px #fff;
   border-radius: 5px;
-  margin: 2% 0;
+  margin: 23% 0 2% 0;
 }
 
 .slider ul li{
@@ -2116,15 +2116,280 @@ a{
   text-shadow: 1px 1px 8px #000;
 }
 
+/* WARNING: TODOS LOS ESTILOS DEL "MENU IZQUIERDO FIXED" SE ENCARGA CRISTIAN!!! */
+
+.menuizquierdofixed{
+  width: 80%;
+  height: 100%;
+  border: solid 1px red;
+  background: #271919;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  z-index: 3;
+  overflow: scroll;
+}
+
+.menuizquierdofixed .bienvenidofixed{
+  width: 100%;
+  background: red;
+  padding: 8% 5%;
+}
+
+.menuizquierdofixed .bienvenidofixed .iconomenufixedcerrar{
+  font-size: 3em;
+  text-align: right;
+}
+
+.menuizquierdofixed .bienvenidofixed .iconomenufixedcerrar:hover{
+  font-size: 2.8em;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.menuizquierdofixed .bienvenidofixed h3{
+  font-size: 2.5em;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.menuizquierdofixed .bienvenidofixed h3 span{
+  font-size: 1.3em;
+  margin-right: 3%;
+}
+
+.menuizquierdofixed .bienvenidofixed h6{
+  font-size: 1.4em;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.menuizquierdofixed span p{
+  font-size: 1.4em;
+  color: #cc4848;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2%;
+  background: #bbb5b5;
+  text-shadow: 1px 1px 1px #000;
+  padding: 5% 0;
+  border-radius: 4px;
+  box-shadow: 1px 1px 8px #000;
+}
+
+.menuizquierdofixed .categoriasfixed{
+  padding: 5%;
+  width: 100%;
+  font-size: 2em;
+}
+
+.menuizquierdofixed .categoriasfixed ul li{
+  margin-bottom: 8%;
+}
+
+.menuizquierdofixed .categoriasfixed ul li:nth-child(2){
+  padding-bottom: 8%;
+  border-bottom: 1px solid #00000057;
+}
+
+.menuizquierdofixed .categoriasfixed ul li:nth-child(5){
+  padding-bottom: 8%;
+  border-bottom: 1px solid #00000057;
+}
+
+.menuizquierdofixed .categoriasfixed ul li:nth-child(9){
+  padding-bottom: 8%;
+  border-bottom: 1px solid #00000057;
+}
+
+.menuizquierdofixed .categoriasfixed ul li span{
+  margin-right: 5%;
+}
+
+.menuizquierdofixed .categoriasfixed ul li a{
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+
 /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
 
 
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background: #ff0000c2;
+}
+
+.header .headerparte1{
+  width: 100%;
+  display: none;
+}
+
+.header .headerparte1 ul{
+  width: 100%;
+  display: flex;
+}
+
+.header .headerparte1 ul li{
+  width: 11%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.header .headerparte1 ul li:hover{
+  background: blue;
+  font-size: 1.4em;
+  transition: all 0.8s;
+}
+
+.header .headerparte1 ul li a{
+  padding: 5% 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.header .headerparte1 ul li a span{
+  padding-right: 4%;
+}
+
+.header .headerparte1 ul li:nth-child(-n+8){
+  border-right: solid 1px #000;
+}
 
 
 
+.header .headerparte3{
+  width: 100%;
+  display: none;
+}
+
+.header .headerparte3 ul{
+  width: 100%;
+  display: flex;
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.header .headerparte3 ul li a{
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.header .headerparte3 ul li a:hover{
+  color: #000000db;
+  transition: all 0.8s;
+}
+
+.header .headerparte3 ul li ul{
+  display: block;
+  font-size: 0.95em;
+  border: solid 1px #000;
+  border-radius: 4px;
+  background: #000000db;
+  margin-top: 1%;
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+}
+
+.header .headerparte3 ul li ul li{
+  padding: 5% 0 5% 5%;
+}
+
+.header .headerparte3 ul .iconomasgrande{
+  font-size: 2.2em;
+  margin-top: -0.1%;
+}
+
+.header .headerparte3 ul .iconomasgrande{
+  font-size: 2.2em;
+  margin-top: -0.1%;
+}
+
+.header .headerparte3 ul li ul li:hover{
+  background: red;
+  border-radius: 4px;
+  font-size: 0.90em;
+  transition: all 0.8s;
+}
 
 
 
+.header .headerparte3 ul li{
+  margin-top: 1%;
+  margin-bottom: 0.3%;
+}
+
+.header .headerparte2 ul li h3{
+  display: none;
+}
+
+.header .headerparte2{
+  width: 100%;
+  padding-top: 3.5%;
+  padding-left: 1.5%;
+}
+
+.header .headerparte2 ul{
+  width: 100%;
+  display: flex;
+}
+
+.header .headerparte2 ul li:hover{
+  color: #fff;
+  transition: all 0.8s;
+}
+
+.header .headerparte2 ul li:nth-child(1){
+  width: 13%;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.header .headerparte2 ul li:nth-child(2){
+  width: 55%;
+}
+
+.header .headerparte2 ul li:nth-child(3){
+  width: 13%;
+  font-size: 4em;
+}
+
+.header .headerparte2 ul li:nth-child(4){
+  display: none;
+  width: 50%;
+  margin-right: 2%;
+}
+
+.header .headerparte2 ul li input{
+  border-radius: 10px;
+  padding: 3% 2%;
+}
+
+.header .headerparte2 ul li:nth-child(5){
+  width: 13%;
+  font-size: 4em;
+}
+
+.header .headerparte2 ul li .logo{
+  width: 100%;
+}
+
+.header .headerparte2 ul li .logo img{
+  width: 100%;
+}
+
+.header .headerparte2 ul li input{
+  width: 100%;
+}
 
 
 
@@ -2137,19 +2402,18 @@ a{
 /* WARNING: TODOS LOS ESTILOS DEL "formulario de registro" SE ENCARGA TATIANA!!! */
 
 .registro  {
-
-
- padding: 1%;
+  padding: 1%;
   width: 50%;
   background-color: #5150fdde;
   border: solid 1px black;
-  z-index: 1;
+  z-index: 2;
   position: fixed;
   left: 25%;
   top: 10%;
   font-family: sans-serif;
   font-size: 1.5em;
   display: flex;
+  display: none;
 }
 
 .registroprimeraparte{
@@ -2274,7 +2538,23 @@ a{
 
 @media (min-width: 375px) {
 
+  /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
+
+
+  .header .headerparte2{
+    padding-top: 2%;
+    padding-left: 5%;
+  }
+
+  .header .headerparte2 ul li:nth-child(2){
+    width: 50%;
+  }
+
   /* WARNING: STILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
+
+  .slider{
+    margin: 19% 0 2% 0;
+  }
 
   .flechaderecha .right:hover{
     padding-right: 10%;
@@ -2402,11 +2682,29 @@ a{
   .flechaisquierda8 .left8:hover{
     padding-left: 10%;
   }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "MENU IZQUIERDO FIXED" SE ENCARGA CRISTIAN!!! */
+
+  .menuizquierdofixed{
+    width: 75%;
+  }
+
 }
 
 @media (min-width: 425px) {
 
+  /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
+
+  .header .headerparte2 ul li:nth-child(2){
+    width: 40%;
+  }
+
+
   /* WARNING: STILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
+
+  .slider{
+    margin: 16% 0 2% 0;
+  }
 
   .flechaderecha .right{
     font-size: 800%;
@@ -2500,6 +2798,12 @@ a{
 
   .flechaisquierda8 .left8{
     font-size: 600%;
+  }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "MENU IZQUIERDO FIXED" SE ENCARGA CRISTIAN!!! */
+
+  .menuizquierdofixed{
+    width: 65%;
   }
 }
 
@@ -2747,12 +3051,31 @@ a{
 
 @media (min-width: 768px) {
 
+  /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
+
+  .header .headerparte2 ul li:nth-child(2){
+    width: 25%;
+    margin-right: 5%;
+  }
+
+  .header .headerparte2 ul li:nth-child(3){
+    display: none;
+  }
+
+  .header .headerparte2 ul li:nth-child(4){
+    display: block;
+  }
+
   .banner2 img{
     width: 170%;
     margin-left: -25%;
   }
 
   /* WARNING: STILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
+
+  .slider{
+    margin: 11% 0 2% 0;
+  }
 
   .flechaderecha .right{
     font-size: 1000%;
@@ -3114,9 +3437,28 @@ a{
     font-size: 1.5em;
   }
 
+  /* WARNING: TODOS LOS ESTILOS DEL "MENU IZQUIERDO FIXED" SE ENCARGA CRISTIAN!!! */
+
+  .menuizquierdofixed{
+    width: 38%;
+  }
 }
 
 @media (min-width: 1024px) {
+
+
+    /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
+
+
+  .header .headerparte2{
+    padding-top: 0.8%;
+    padding-left: 3%;
+  }
+
+  .header .headerparte2 ul li:nth-child(2){
+    width: 18%;
+    margin-right: 10%;
+  }
 
   .banner img{
     width: 100%;
@@ -3128,6 +3470,10 @@ a{
   }
 
   /* WARNING: STILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
+
+  .slider{
+    margin: 8% 0 2% 0;
+  }
 
   .iconopaginacion{
     font-size: 220%;
@@ -3399,11 +3745,67 @@ a{
     width: 100%;
   }
 
+  /* WARNING: TODOS LOS ESTILOS DEL "MENU IZQUIERDO FIXED" SE ENCARGA CRISTIAN!!! */
+
+  .menuizquierdofixed{
+    width: 28%;
+  }
+
+  .menuizquierdofixed .bienvenidofixed h3{
+    margin-bottom: 4%;
+  }
+
+  .menuizquierdofixed .categoriasfixed{
+    font-size: 1.9em;
+  }
+
 }
 
 @media (min-width: 1280px) {
 
+  /* WARNING: TODOS LOS ESTILOS DEL "HEADER" SE ENCARGA AGUSTIN!!! */
+
+.header .headerparte1{
+  display: block;
+}
+
+.header .headerparte3{
+  display: block;
+}
+
+.header{
+  position: static;
+}
+
+.header .headerparte2{
+  padding-left: 2%;
+}
+
+.header .headerparte2 ul li:nth-child(2){
+  width: 17%;
+  margin-right: 1%;
+}
+
+.header .headerparte2 ul li input{
+  padding: 2.2% 2%;
+  font-size: 1.5em;
+}
+
+.header .headerparte2 ul li:nth-child(6){
+  width: 30%;
+}
+
+.header .headerparte2 ul li h3{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 3%;
+}
+
   /* WARNING: STILOS DEL "SLIDER" SE ENCARGA CRISTIAN!!! */
+
+  .slider{
+    margin: 2% 0 2% 0;
+  }
 
   .flechaderecha .right{
     font-size: 1200%;
@@ -3858,6 +4260,12 @@ a{
     text-shadow: 1px 1px 8px #000;
     margin-bottom: 4%;
     margin-top: 4%;
+  }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "MENU IZQUIERDO FIXED" SE ENCARGA CRISTIAN!!! */
+
+  .menuizquierdofixed{
+    width: 23%;
   }
 
 }

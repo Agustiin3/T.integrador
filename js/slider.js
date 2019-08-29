@@ -1,3 +1,23 @@
+// WARNING: Menu derecho fixed
+var contadorfixed = 0;
+$('.iconomenufixed').click(menuderechofixed);
+$('.iconomenufixedcerrar').click(ocultarmenuderechofixed);
+
+function menuderechofixed(){
+
+  if (contadorfixed == 0) {
+    $('.menuizquierdofixed').animate({left: '0'});
+    contadorfixed = 1;
+  }
+}
+
+function ocultarmenuderechofixed(){
+   if (contadorfixed == 1) {
+     $('.menuizquierdofixed').animate({left: '-100%'});
+     contadorfixed = 0;
+   }
+}
+
 // WARNING: Slider
 
 var contadorimagenes = $('.slider ul li').length;
