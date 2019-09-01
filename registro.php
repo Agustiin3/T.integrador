@@ -1,11 +1,10 @@
 <div class="registro">
+
   <div class="registroprimeraparte">
-
-
-  <form action="index.php" method="post">
-
-<ul>
-
+<form action="#" method="post">
+  <div class="iconoregistrocerrar"><i class="fal fa-window-close"></i></div>
+  <h1 class="titulo">REGISTRATE</h1>
+ <ul>
     <li>
       <label for="nombre">Nombre</label>
       <input type="text" name="nombre">
@@ -32,27 +31,18 @@
     </li>
 
     <button type="submit" name="submit">CREAR CUENTA</button>
-
-
-
   </ul>
-  </form>
-
-
-<p>________ <span class="o">o</span>________</p>
+ </form>
 
 <button class="segundo" type="button" name="button">REGISTRATE CON FACEBOOK</button>
+</div>
 
-  </div>
+<div class="registrasegundaparte">
+ <img src="img/registro.svg" alt="registro.svg">
 
-  <div class="registrasegundaparte">
-
-  <img src="img/registro.svg" alt="registro.svg">
-
-  <h1>Que vas a poder hacer en tu cuenta?</h1>
+  <h1>Que podes hacer en tu cuenta?</h1>
 
       <ul>
-
         <li>
             <p><span> ✓ </span>Lorem ipsum dolor sit amet</p>
          </li>
@@ -72,10 +62,6 @@
          <li>
             <p><span> ✓ </span> Lorem ipsum dolor sit amet</p>
          </li>
-
-      </ul>
-
-    </div>
-
-
+       </ul>
+     </div>
 </div>

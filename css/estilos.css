@@ -46,6 +46,22 @@ body{
   margin-left: -57%;
 }
 
+
+.banner3{
+  width: 96%;
+  overflow: hidden;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.banner3 img{
+  width:199%;
+}
+
 li{
   list-style: none;
 }
@@ -53,6 +69,14 @@ li{
 a{
   text-decoration: none;
   display: block;
+}
+
+.cerrartodo{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: none;
 }
 
 
@@ -2401,40 +2425,69 @@ a{
 
 /* WARNING: TODOS LOS ESTILOS DEL "formulario de registro" SE ENCARGA TATIANA!!! */
 
-.registro  {
+.registro{
   padding: 1%;
-  width: 50%;
+  width: 90%;
   background-color: #5150fdde;
   border: solid 1px black;
-  z-index: 2;
-  position: fixed;
-  left: 25%;
-  top: 10%;
+  z-index: 3;
+  position: absolute;
+  left: 5%;
+  top: -200%;
   font-family: sans-serif;
   font-size: 1.5em;
   display: flex;
-  display: none;
+  border-radius: 5px;
 }
 
+
+
 .registroprimeraparte{
-  width: 50%;
-  border: solid 1px black;
+  width: 100%;
+  border: solid 1px white;
   padding: 2%;
+  border-radius: 3px;
+}
+
+.registroprimeraparte .iconoregistrocerrar{
+  font-size: 2em;
+  text-align: right;
+  margin-bottom: 2%;
+}
+
+.registroprimeraparte .iconoregistrocerrar:hover{
+  font-size: 1.8em;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.registroprimeraparte .titulo{
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 2% 0;
+  text-shadow: 1px 1px 1px #000;
+  widows: 100%;
+  margin-bottom: 5%;
+  border: solid 1px red;
+  border-radius: 4px;
+  background: red;
 }
 
 .registrasegundaparte{
   border: solid 1px white;
+  border-radius: 3px;
   width: 50%;
   padding: 2%;
   margin-left:2%;
-
+  display: none;
 }
 
 .registrasegundaparte h1{
-
   font-size: 1.3em;
   margin-bottom: 5%;
-
+  text-align: center;
 }
 
 .registrasegundaparte img{
@@ -2443,39 +2496,33 @@ a{
   display: block;
 }
 
-.registrasegundaparte span{
-  color: lightgreen;
-  text-shadow: 1px 1px 8px #000;
-  font-size: 2em;
-}
-
 .registrasegundaparte p{
   font-size: 1.2em;
 }
 
 .registro ul li{
-
   margin-bottom: 2%;
-
 }
 
 .registro ul li input{
-
   width: 100%;
-  padding: 2% 0;
+  padding: 2% 2%;
   border-radius: 4px;
-  margin-top: 5%;
-
+  margin-top: 1%;
 }
 
 .registro button{
-
-  width: 100%;
+  width: 50%;
   margin-top: 10%;
+  display: block;
   font-family: sans-serif;
   color: black;
   font-weight: bold;
-
+  border-radius: 4px;
+  padding: 3% 0;
+  background: red;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .registroprimeraparte p{
@@ -2491,11 +2538,12 @@ a{
 }
 
 .registroprimeraparte .segundo{
-  padding: 2% 0;
+  width: 100%;
+  padding: 3% 0;
   background-color: blue;
   color: white;
   border-radius: 4px;
-  box-shadow: 1px 1px 8px blue;
+  box-shadow: 1px 1px 5px #000;
   border: solid 1px blue;
   text-shadow: 1px 1px 8px black;
 }
@@ -2515,15 +2563,511 @@ a{
 
 
 
-/* WARNING: TODOS LOS ESTILOS DEL "COLOCA QUE VAS A HACER ACA JONAS" SE ENCARGA JONAS!!! */
+/* WARNING: TODOS LOS ESTILOS DEL "CENTRO DE AYUDA" SE ENCARGA JONAS!!! */
+
+.centrodeayudacontenedor{
+  margin-top: 22%;
+  width: 100%;
+  padding: 2%;
+  border: solid 1px #fff126;
+  background: #0a0000d9;
+  border-radius: 5px;
+}
+
+.centrodeayudacontenedor h1{
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 5%;
+}
+
+.centrodeayudacontenedor h2{
+  font-size: 1.3em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 5%;
+}
+
+.centrodeayudacontenedor .lomasconsultado{
+  width: 100%;
+  padding: 4%;
+}
+
+.centrodeayudacontenedor .lomasconsultado ul{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .lomasconsultado ul li{
+  width: 100%;
+  margin-bottom: 5%;
+  border: solid 1px red;
+  border-radius: 4px;
+}
+
+.centrodeayudacontenedor .lomasconsultado ul li a{
+  padding: 8% 2%;
+  text-align: center;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  background: #2b1904;
+  border-radius: 4px;
+}
+
+.centrodeayudacontenedor .lomasconsultado ul li a:hover{
+  background: #04272b;
+  transition: all 0.8s;
+}
+
+.centrodeayudacontenedor .centrodeayuda{
+  width: 100%;
+  padding: 4%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li{
+  width: 100%;
+  margin-bottom: 5%;
+  border: solid 1px red;
+  border-radius: 4px;
+  padding: 8%;
+  text-align: center;
+  background: #401a0e;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .compras{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .compras .comprasicono{
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .compras ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .compras ul li{
+  width: 100%;
+  list-style: circle;
+  border: none;
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .compras ul li a{
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .compras .masinfo{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
 
 
+.centrodeayudacontenedor .centrodeayuda ul li .pagos{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .pagos .pagosicono{
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .pagos ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .pagos ul li{
+  width: 100%;
+  list-style: circle;
+  border: none;
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .pagos ul li a{
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .pagos .masinfo{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .entregas{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .entregas .entregasicono{
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .entregas ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .entregas ul li{
+  width: 100%;
+  list-style: circle;
+  border: none;
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .entregas ul li a{
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .entregas .masinfo{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .sucursales{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .sucursales .sucursalesicono{
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .sucursales ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .sucursales ul li{
+  width: 100%;
+  list-style: circle;
+  border: none;
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .sucursales ul li a{
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .sucursales .masinfo{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
 
 
+.centrodeayudacontenedor .centrodeayuda ul li .garantias{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .garantias .garantiasicono{
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .garantias ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .garantias ul li{
+  width: 100%;
+  list-style: circle;
+  border: none;
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .garantias ul li a{
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .garantias .masinfo{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
 
 
+.centrodeayudacontenedor .centrodeayuda ul li .cambios{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .cambios .cambiosicono{
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .cambios ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .cambios ul li{
+  width: 100%;
+  list-style: circle;
+  border: none;
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .cambios ul li a{
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .centrodeayuda ul li .cambios .masinfo{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
 
 
+.centrodeayudacontenedor .preguntasfrecuentes{
+  width: 100%;
+  padding: 4%;
+  background: #401a0e;
+  border: solid 1px red;
+  border-radius: 4px;
+  margin-bottom: 3%;
+}
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntas{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntas ul{
+  width: 100%;
+  margin: 10% 0;
+}
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntas ul li{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntas ul li a{
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1.4em;
+}
+
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntasresultado{
+  width: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntasresultado details{
+  width: 100%;
+  font-size: 1.4em;
+}
+
+.centrodeayudacontenedor .preguntasfrecuentes .preguntasresultado details summary{
+  width: 100%;
+  margin: 5% 0 5% 0;
+}
+
+
+.centrodeayudacontenedor .contacteconnosotros{
+  width: 100%;
+  padding: 4%;
+}
+
+.centrodeayudacontenedor .contacteconnosotros h3{
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 5%;
+}
+
+.centrodeayudacontenedor .contacteconnosotros ul{
+  width: 100%;
+}
+
+.centrodeayudacontenedor .contacteconnosotros ul li{
+  width: 100%;
+  margin-bottom: 5%;
+  border: solid 1px red;
+  border-radius: 4px;
+  text-align: center;
+  background: #401a0e;
+}
+
+.centrodeayudacontenedor .contacteconnosotros ul li .consultasicono{
+  font-size: 4em;
+  margin-top: 3%;
+}
+
+.centrodeayudacontenedor .contacteconnosotros ul li .reclamosicono{
+  font-size: 4em;
+  margin-top: 3%;
+}
+
+.centrodeayudacontenedor .contacteconnosotros ul li .sugerenciasicono{
+  font-size: 4em;
+  margin-top: 3%;
+}
+
+.centrodeayudacontenedor .lomasconsultado ul li a{
+  padding: 8% 2%;
+  text-align: center;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+  /* WARNING: TODOS LOS ESTILOS DEL "FORMULARIO DE SESION" SE ENCARGA CRISTIAN!!! */
+
+
+.sesion{
+  border: solid 1px #ff26266e;
+  width: 90%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border-radius: 2%;
+  background: #0000008a;
+  position: absolute;
+  top: -200%;
+  z-index: 3;
+  margin-left: 5%;
+  background: #000000e8;
+}
+
+.sesion .iconosesioncerrar{
+  font-size: 2.5em;
+  text-align: right;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  margin-top: 1%;
+  color: red;
+}
+
+.sesion .iconosesioncerrar:hover{
+  font-size: 2.2em;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sesion h1{
+  font-size: 1.7em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-bottom: solid 0.8px #ff26266e;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 3%;
+  border-radius: 3%;
+  background: #454aea;
+}
+
+.sesion h2{
+  font-size: 1.7em;
+  width: 50%;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border: solid 1px #ff26266e;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 3%;
+  border-radius: 3%;
+  background: #454aea;
+}
+
+.sesion h2:hover{
+  background: #8500ff6e;
+}
+
+.sesion2{
+  width: 90%;
+  margin-bottom: 5%;
+}
+
+.sesion2 ul li{
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.sesion2 input{
+  display: block;
+  border: solid 1.2px #8326ff63;
+  border-radius: 5%;
+  background: #02136759;
+  color: #fff;
+  width: 80%;
+  padding: 2%;
+}
+
+.sesion2 input:hover{
+  width: 84%;
+  background: #8500ff6e;
+}
+
+.sesion2 button:hover{
+  background: #8500ff6e;
+}
+
+.sesion2 button{
+  display: block;
+  border: solid 0.8px #8326ff63;
+  width: 40%;
+  padding: 10px;
+  border-radius: 3%;
+  background: #454aea;
+  color: #fff;
+}
 
 
 
@@ -2689,6 +3233,138 @@ a{
     width: 75%;
   }
 
+  /* WARNING: TODOS LOS ESTILOS DEL "CENTRO DE AYUDA" SE ENCARGA JONAS!!! */
+
+  .centrodeayudacontenedor{
+    margin-top: 18.5%;
+  }
+
+  .centrodeayudacontenedor h1{
+    font-size: 1.6em;
+    margin-bottom: 3%;
+  }
+
+  .centrodeayudacontenedor h2{
+    font-size: 1.4em;
+    margin-bottom: 3%;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado{
+    padding: 1%;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul li{
+    margin-bottom: 3%;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul li a{
+    padding: 6% 1%;
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda{
+    padding: 1%;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li{
+    margin-bottom: 3% !important;
+    padding: 7%;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .compras ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .compras ul li{
+    margin-bottom: 3% !important;
+    font-size: 1.6em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .pagos ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .pagos ul li{
+    margin-bottom: 3% !important;
+    font-size: 1.6em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .entregas ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .entregas ul li{
+    margin-bottom: 3% !important;
+    font-size: 1.6em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .sucursales ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .sucursales ul li{
+    margin-bottom: 3% !important;
+    font-size: 1.6em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .garantias ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .garantias ul li{
+    margin-bottom: 3% !important;
+    font-size: 1.6em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .cambios ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .cambios ul li{
+    margin-bottom: 3% !important;
+    font-size: 1.6em;
+  }
+
+
+
+  .centrodeayudacontenedor .preguntasfrecuentes{
+    padding: 1%;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntas ul{
+    margin: 7% 0;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntas ul li{
+    margin-bottom: 3%;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntas ul li a{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntasresultado details summary{
+    margin: 3% 0 3% 0;
+  }
+
+
+  .centrodeayudacontenedor .contacteconnosotros{
+    padding: 1%;
+  }
+
+  .centrodeayudacontenedor .contacteconnosotros h3{
+    margin-bottom: 3%;
+  }
+
+  .centrodeayudacontenedor .contacteconnosotros ul li{
+    margin-bottom: 3%;
+  }
+
+  .banner3{
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
 }
 
 @media (min-width: 425px) {
@@ -2805,6 +3481,19 @@ a{
   .menuizquierdofixed{
     width: 65%;
   }
+
+
+  /* WARNING: TODOS LOS ESTILOS DEL "CENTRO DE AYUDA" SE ENCARGA JONAS!!! */
+
+  .centrodeayudacontenedor{
+    margin-top: 15.5%;
+  }
+
+  .banner3{
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+
 }
 
 
@@ -3442,6 +4131,162 @@ a{
   .menuizquierdofixed{
     width: 38%;
   }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "CENTRO DE AYUDA" SE ENCARGA JONAS!!! */
+
+  .centrodeayudacontenedor{
+    margin-top: 10%;
+  }
+
+  .centrodeayudacontenedor h1{
+    font-size: 1.7em;
+    margin-bottom: 2%;
+  }
+
+  .centrodeayudacontenedor h2{
+    font-size: 1.5em;
+    margin-bottom: 2%;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul li{
+    margin-bottom: 2%;
+    width: 48% !important;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul li a{
+    padding: 5% 0;
+    font-size: 1.6em;
+    width: 100%;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li{
+    width: 48%;
+    margin-bottom: 2% !important;
+    padding: 3% 4% 3% 4%;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .compras ul{
+    margin: 5% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .compras ul li{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .pagos ul{
+    margin: 5% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .pagos ul li{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .entregas ul{
+    margin: 5% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .entregas ul li{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .sucursales ul{
+    margin: 5% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .sucursales ul li{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .garantias ul{
+    margin: 5% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .garantias ul li{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .cambios ul{
+    margin: 5% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .cambios ul li{
+    font-size: 1.5em;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntas{
+    width: 48%;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntasresultado{
+    width: 48%;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntas ul{
+    margin: 3% 0;
+  }
+
+  .banner3 img{
+    width: 125%;
+  }
+
+
+  .centrodeayudacontenedor .contacteconnosotros{
+    padding: 2%;
+  }
+
+  .centrodeayudacontenedor .contacteconnosotros h3{
+    margin-bottom: 2%;
+  }
+
+  .centrodeayudacontenedor .contacteconnosotros ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .centrodeayudacontenedor .contacteconnosotros ul li{
+    margin-bottom: 2%;
+    width: 48%;
+  }
+
+  .banner3{
+    margin-bottom: 2%;
+  }
+
+    /* WARNING: TODOS LOS ESTILOS DEL "Formulario de registro" SE ENCARGA CRISTIAN!!! */
+
+
+  .registroprimeraparte{
+    width: 50%;
+  }
+
+  .registrasegundaparte{
+    display: block;
+  }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "FORMULARIO DE SESION" SE ENCARGA CRISTIAN!!! */
+
+
+.sesion{
+  width: 50%;
+  z-index: 3;
+  margin-left: 25%;
+}
+
+
 }
 
 @media (min-width: 1024px) {
@@ -3758,6 +4603,93 @@ a{
   .menuizquierdofixed .categoriasfixed{
     font-size: 1.9em;
   }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "CENTRO DE AYUDA" SE ENCARGA JONAS!!! */
+
+  .centrodeayudacontenedor{
+    margin-top: 6.5%;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul li{
+    width: 32% !important;
+  }
+
+  .centrodeayudacontenedor .lomasconsultado ul li a{
+    padding: 7% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li{
+    width: 32%;
+    padding: 2% 3% 2% 3%;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .compras ul{
+    margin: 3% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .pagos ul{
+    margin: 3% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .entregas ul{
+    margin: 3% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .sucursales ul{
+    margin: 3% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .garantias ul{
+    margin: 3% 0;
+  }
+
+  .centrodeayudacontenedor .centrodeayuda ul li .cambios ul{
+    margin: 3% 0;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntas{
+    width: 35%;
+  }
+
+  .centrodeayudacontenedor .preguntasfrecuentes .preguntasresultado{
+    width: 61%;
+  }
+
+  .banner3 img{
+    width: 100%;
+  }
+
+  .centrodeayudacontenedor .contacteconnosotros ul li{
+    width: 32%;
+  }
+
+  .banner3{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .registro{
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  /* WARNING: TODOS LOS ESTILOS DEL "FORMULARIO DE SESION" SE ENCARGA CRISTIAN!!! */
+
+
+.sesion{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.sesion2 button{
+  font-size: 1.5em;
+}
+
 
 }
 
@@ -4266,6 +5198,18 @@ a{
 
   .menuizquierdofixed{
     width: 23%;
+  }
+
+
+  /* WARNING: TODOS LOS ESTILOS DEL "CENTRO DE AYUDA" SE ENCARGA JONAS!!! */
+
+  .centrodeayudacontenedor{
+    margin-top: 1%;
+  }
+
+  .registro{
+    width: 60%;
+    margin-left: 15%;
   }
 
 }

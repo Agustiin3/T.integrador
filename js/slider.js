@@ -1,12 +1,14 @@
 // WARNING: Menu derecho fixed
 var contadorfixed = 0;
 $('.iconomenufixed').click(menuderechofixed);
+$('.cerrartodo').click(cerrartodo);
 $('.iconomenufixedcerrar').click(ocultarmenuderechofixed);
 
 function menuderechofixed(){
 
   if (contadorfixed == 0) {
     $('.menuizquierdofixed').animate({left: '0'});
+    $('.cerrartodo').css({'display': 'block'});
     contadorfixed = 1;
   }
 }
@@ -14,7 +16,96 @@ function menuderechofixed(){
 function ocultarmenuderechofixed(){
    if (contadorfixed == 1) {
      $('.menuizquierdofixed').animate({left: '-100%'});
+     $('.cerrartodo').css({'display': 'none'});
      contadorfixed = 0;
+   }
+}
+
+// WARNING: SESION
+var contadorsesionfixed = 0;
+$('.registrooiniciofixed').click(registrooiniciofixed);
+$('.iconosesionheader').click(iconosesionheader);
+$('.iconosesioncerrar').click(iconosesioncerrar);
+
+function registrooiniciofixed(){
+
+  if (contadorsesionfixed == 0) {
+    $('.sesion').animate({top: '12%'});
+    $('.cerrartodo').css({'display': 'block'});
+    contadorsesionfixed = 1;
+  }
+}
+
+function iconosesionheader(){
+
+  if (contadorsesionfixed == 0) {
+    $('.sesion').animate({top: '12%'});
+    $('.cerrartodo').css({'display': 'block'});
+    contadorsesionfixed = 1;
+  }
+}
+
+function iconosesioncerrar(){
+   if (contadorsesionfixed == 1) {
+     $('.sesion').animate({top: '-200%'});
+     $('.cerrartodo').css({'display': 'none'});
+     contadorsesionfixed = 0;
+   }
+}
+
+
+// WARNING: REGISTRO
+var contadorregistrofixed = 0;
+$('.iconoregistroensesion').click(iconoregistroensesion);
+$('.iconoregistroheader').click(iconoregistroheader);
+$('.iconoregistrocerrar').click(iconoregistrocerrar);
+
+function iconoregistroensesion(){
+
+  if (contadorregistrofixed == 0) {
+    $('.registro').animate({top: '12%'});
+    $('.cerrartodo').css({'display': 'block'});
+    contadorregistrofixed = 1;
+  }
+}
+
+function iconoregistroheader(){
+
+  if (contadorregistrofixed == 0) {
+    $('.registro').animate({top: '12%'});
+    $('.cerrartodo').css({'display': 'block'});
+    contadorregistrofixed = 1;
+  }
+}
+
+function iconoregistrocerrar(){
+   if (contadorregistrofixed == 1) {
+     $('.registro').animate({top: '-200%'});
+     $('.cerrartodo').css({'display': 'none'});
+     contadorregistrofixed = 0;
+   }
+}
+
+
+// WARNING: Cerrartodo
+
+function cerrartodo(){
+   if (contadorfixed == 1) {
+     $('.menuizquierdofixed').animate({left: '-100%'});
+     $('.cerrartodo').css({'display': 'none'});
+     contadorfixed = 0;
+   }
+
+   if (contadorsesionfixed == 1) {
+     $('.sesion').animate({top: '-200%'});
+     $('.cerrartodo').css({'display': 'none'});
+     contadorsesionfixed = 0;
+   }
+
+   if (contadorregistrofixed == 1) {
+     $('.registro').animate({top: '-200%'});
+     $('.cerrartodo').css({'display': 'none'});
+     contadorregistrofixed = 0;
    }
 }
 

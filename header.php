@@ -1,5 +1,5 @@
 <div class="header">
-
+<div class="cerrartodo"></div>
 <div class="headerparte1">
   <ul>
     <li><a href="#">Creditos y Tarjetas</a></li>
@@ -30,7 +30,7 @@
   <ul>
 
 
-    <li><details open>
+    <li><details>
       <summary>Categorias</summary>
       <ul>
         <li><h4>Tecnologia</h4></li>
@@ -47,9 +47,9 @@
 
     <li><a href="#">Envio Gratis ¡impredible!</a></li>
     <li><a href="#">Beneficio Anses</a></li>
-    <li><a href="#">¡Ofertas BOMBA!</a></li>
-    <li><a href="#">Registrate</a></li>
-    <li><a href="#">Inicia Sesion</a></li>
+    <li><a href="ofertas.php">¡Ofertas BOMBA!</a></li>
+    <li class="iconoregistroheader"><a href="#">Registrate</a></li>
+    <li class="iconosesionheader"><a href="#">Inicia Sesion</a></li>
     <li class="iconomasgrande" ><a href="#"><span><i class="fas fa-heart"></i></span></a></li>
     <li class="iconomasgrande" ><a href="#"><span><i class="fab fa-whatsapp"></i></span></a></li>
 

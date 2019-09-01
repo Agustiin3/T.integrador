@@ -10,6 +10,7 @@
   </head>
   <body>
       <?php require_once('header.php'); ?>
+      <?php require_once('sesion.php'); ?>
       <?php require_once('registro.php'); ?>
       <?php require_once('slider.php'); ?>
     <div class="contenedor">
