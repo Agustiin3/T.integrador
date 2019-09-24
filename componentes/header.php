@@ -48,8 +48,26 @@
     <li><a href="#">Envio Gratis ¡impredible!</a></li>
     <li><a href="#">Beneficio Anses</a></li>
     <li><a href="ofertas.php">¡Ofertas BOMBA!</a></li>
-    <li class="iconoregistroheader"><a href="#">Registrate</a></li>
-    <li class="iconosesionheader"><a href="#">Inicia Sesion</a></li>
+    <?php if ($_SESSION): ?>
+      <style>
+        .mayuscula{
+          text-transform: capitalize;
+        }
+      </style>
+      <li><details>
+        <summary class="mayuscula">Hola, <?=$_SESSION["nombre"]. " " .$_SESSION["apellido"]?></summary>
+        <ul>
+          <li><h3>Mi Cuenta</h3></li>
+          <li><h4>Compras</h4></li>
+          <li><h4>Datos</h4></li>
+          <li><h4>Historial</h4></li>
+          <li><h3><a href="componentes/cerrarsesion.php">Cerrar Sesion</a></h3></li>
+        </ul>
+      </details></li>
+    <?php else: ?>
+      <li class="iconoregistroheader"><a href="#">Registrate</a></li>
+      <li class="iconosesionheader"><a href="#">Inicia Sesion</a></li>
+    <?php endif; ?>
     <li class="iconomasgrande" ><a href="#"><span><i class="fas fa-heart"></i></span></a></li>
     <li class="iconomasgrande" ><a href="#"><span><i class="fab fa-whatsapp"></i></span></a></li>
 
