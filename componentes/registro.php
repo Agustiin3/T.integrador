@@ -7,50 +7,74 @@
  <ul>
     <li>
       <label for="nombre">Nombre</label>
-      <?=imprimirerrores("bordenombre")?>
-      <?=imprimirerrores("mensajeerrornombre")?>
+      <?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("bordenombre")?>
+        <?=$usuario->imprimirerrores("mensajeerrornombre")?>
+      <?php endif; ?>
       <input class="bordenombre" type="text" name="nombre" value="<?=recordardatos("nombre")?>">
-      <span class="mensajeerrornombre"><?=imprimirerrores("nombre")?></span>
+      <span class="mensajeerrornombre"><?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("nombre")?>
+      <?php endif; ?></span>
     </li>
 
     <li>
       <label for="apellido">Apellido</label>
-      <?=imprimirerrores("bordeapellido")?>
-      <?=imprimirerrores("mensajeerrorapellido")?>
-      <input class="borde" type="text" name="apellido" value="<?=recordardatos("apellido")?>">
-      <span class="mensajeerrorapellido"><?=imprimirerrores("apellido")?></span>
+      <?php if ($metodoparatraerregistro): ?>
+      <?=$usuario->imprimirerrores("bordeapellido")?>
+      <?=$usuario->imprimirerrores("mensajeerrorapellido")?>
+      <?php endif; ?>
+      <input class="bordeapellido" type="text" name="apellido" value="<?=recordardatos("apellido")?>">
+      <span class="mensajeerrorapellido"><?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("apellido")?>
+      <?php endif; ?></span>
     </li>
 
     <li>
       <label for="email">Email</label>
-      <?=imprimirerrores("bordeemail")?>
-      <?=imprimirerrores("mensajeerroremail")?>
+      <?php if ($metodoparatraerregistro): ?>
+      <?=$usuario->imprimirerrores("bordeemail")?>
+      <?=$usuario->imprimirerrores("mensajeerroremail")?>
+      <?php endif; ?>
       <input class="bordeemail" type="text" name="email" value="<?=recordardatos("email")?>">
-      <span class="mensajeerroremail"><?=imprimirerrores("email")?></span>
+      <span class="mensajeerroremail"><?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("email")?>
+      <?php endif; ?></span>
     </li>
 
     <li>
       <label for="contraseña">Contraseña</label>
-      <?=imprimirerrores("bordecontraseña")?>
-      <?=imprimirerrores("mensajeerrorcontraseña")?>
-      <input class="bordecontraseña" type="password" name="contraseña" value="<?=recordardatos("contraseña")?>">
-      <span class="mensajeerrorcontraseña"><?=imprimirerrores("contraseña")?></span>
+      <?php if ($metodoparatraerregistro): ?>
+      <?=$usuario->imprimirerrores("bordecontrasena")?>
+      <?=$usuario->imprimirerrores("mensajeerrorcontrasena")?>
+      <?php endif; ?>
+      <input class="bordecontrasena" type="password" name="contrasena" value="<?=recordardatos("contrasena")?>">
+      <span class="mensajeerrorcontrasena"><?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("contrasena")?>
+      <?php endif; ?></span>
     </li>
 
     <li>
       <label for="contraseña">Repetir Contraseña</label>
-      <?=imprimirerrores("bordecontraseña2")?>
-      <?=imprimirerrores("mensajeerrorcontraseña2")?>
-      <input class="bordecontraseña2" type="password" name="contraseña2" value="<?=recordardatos("contraseña2")?>">
-      <span class="mensajeerrorcontraseña2"><?=imprimirerrores("contraseña2")?></span>
+      <?php if ($metodoparatraerregistro): ?>
+      <?=$usuario->imprimirerrores("bordecontrasena2")?>
+      <?=$usuario->imprimirerrores("mensajeerrorcontrasena2")?>
+      <?php endif; ?>
+      <input class="bordecontrasena2" type="password" name="contrasena2" value="<?=recordardatos("contrasena2")?>">
+      <span class="mensajeerrorcontrasena2"><?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("contrasena2")?>
+      <?php endif; ?></span>
     </li>
 
     <li>
       <label for="foto">Carga una foto de perfil (Obligatorio)</label>
-      <?=imprimirerrores("bordefoto")?>
-      <?=imprimirerrores("mensajeerrorfoto")?>
+      <?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("bordefoto")?>
+        <?=$usuario->imprimirerrores("mensajeerrorfoto")?>
+      <?php endif; ?>
       <input class="bordefoto" type="file" name="foto">
-      <span class="mensajeerrorfoto"><?=imprimirerrores("foto")?></span>
+      <span class="mensajeerrorfoto"><?php if ($metodoparatraerregistro): ?>
+        <?=$usuario->imprimirerrores("foto")?></span>
+      <?php endif; ?>
     </li>
 
     <button type="submit" name="submit">CREAR CUENTA</button>

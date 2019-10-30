@@ -1,5 +1,7 @@
 <div class="header">
 <div class="cerrartodo"></div>
+<header>
+<nav>
 <div class="headerparte1">
   <ul>
     <li><a href="#">Creditos y Tarjetas</a></li>
@@ -22,6 +24,11 @@
     <li><input type="text" name="buscador" value="" placeholder="Busca productos, marcas, categorias..."></li>
     <li><div class="iconocarrito"><i class="fas fa-cart-plus"></i></div></li>
     <li><h3>¡Aprovechá las 18 cuotas sin interés!</h3></li>
+    <?php if ($_SESSION): ?>
+      <?php if ($_SESSION["tipodeusuario"] === "administrador"): ?>
+        <li><h4><a href="gestordecontenidos/index.php">Gestor Inicio</a></h4></li>
+      <?php endif; ?>
+    <?php endif; ?>
   </ul>
 </div>
 
@@ -75,22 +82,7 @@
   </ul>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</nav>
+</header>
 </div>
 <?php require_once('menuizquierdofixed.php'); ?>

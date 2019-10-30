@@ -11,12 +11,16 @@
             </li>
 
             <li>
-              <input type="password" name="contrasenalogin" placeholder="Contraseña" value="<?=recordarlogin("contraseña")?>">
+              <input type="password" name="contrasenalogin" placeholder="Contraseña" value="<?=recordarlogin("contrasena")?>">
             </li>
 
             <li>
-              <?=imprimirerrores("mensajeerrorlogin")?>
-              <span class="mensajeerrorlogin"><?=imprimirerrores("emaillogin")?><?=imprimirerrores("contrasenalogin")?></span>
+              <?php if ($metodoparatraerlogin): ?>
+                <?=$usuariologin->imprimirerrores("mensajeerrorlogin")?>
+              <?php endif; ?>
+              <span class="mensajeerrorlogin"><?php if ($metodoparatraerlogin): ?>
+                <?=$usuariologin->imprimirerrores("emaillogin")?><?=$usuariologin->imprimirerrores("contrasenalogin")?>
+              <?php endif; ?></span>
               <button class="enviar" type="submit" name="enviar">Entrar</button>
             </li>
 
